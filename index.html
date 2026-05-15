@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$IGM • SUPER IGM BROS • Infinite Money Glitch</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+    body { font-family: 'Press Start 2P', system-ui; }
+    .mario-sky { background: linear-gradient(#5c94fc, #94d5ff); }
+    .cloud { animation: float 25s linear infinite; }
+    .coin { animation: spin 1s linear infinite; }
+    @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    @keyframes float { 0% { transform: translateY(0); } 50% { transform: translateY(-30px); } 100% { transform: translateY(0); } }
+    .pipe { background: linear-gradient(#00a000, #00c000); box-shadow: 8px 0 0 #006400; }
+    .hud { background: rgba(0,0,0,0.7); border: 6px solid #f9d71a; }
+  </style>
+</head>
+<body class="mario-sky text-white min-h-screen overflow-x-hidden">
+
+  <!-- NAVBAR -->
+  <nav class="bg-black/80 backdrop-blur border-b-8 border-white sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+      <div class="flex items-center gap-4">
+        <span class="text-4xl">🪙</span>
+        <div class="text-3xl">$IGM</div>
+      </div>
+      <div class="flex gap-8 text-sm">
+        <a href="#hero" class="hover:text-yellow-300">WORLD 1-1</a>
+        <a href="#ecosystem" class="hover:text-yellow-300">ECOSYSTEM</a>
+        <a href="#rewards" class="hover:text-yellow-300">GLITCH REWARDS</a>
+        <a href="#calculator" class="hover:text-yellow-300">GLITCH MACHINE</a>
+      </div>
+      <a href="#" class="bg-red-600 hover:bg-red-700 px-8 py-3 border-4 border-white text-lg font-bold">BUY $IGM</a>
+    </div>
+  </nav>
+
+  <!-- HERO / WORLD 1-1 -->
+  <section id="hero" class="relative min-h-screen flex items-center">
+    <div class="max-w-6xl mx-auto px-6 text-center z-10">
+      <div class="flex justify-center gap-6 text-8xl mb-8">
+        <span class="coin">🪙</span>
+        <span class="coin">🪙</span>
+        <span class="coin">🪙</span>
+      </div>
+      <h1 class="text-7xl leading-none mb-4 text-white drop-shadow-[6px_6px_0_#e4000f]">$IGM</h1>
+      <h2 class="text-5xl text-yellow-300 mb-8">I GET MONEY • INFINITE MONEY GLITCH</h2>
+      <p class="text-2xl max-w-2xl mx-auto">Hold $IGM → Unlock IMG1 & IMG → Earn SOL every 6 hours like a true Mario glitch!</p>
+      
+      <!-- Live Snapshot HUD -->
+      <div class="hud inline-block mt-16 px-12 py-6 rounded-2xl text-left">
+        <div class="grid grid-cols-4 gap-8 text-center">
+          <div><div class="text-yellow-300 text-xs">MARKET CAP</div><div class="text-3xl">$587K</div></div>
+          <div><div class="text-yellow-300 text-xs">24H VOLUME</div><div class="text-3xl">$6.8K</div></div>
+          <div><div class="text-yellow-300 text-xs">WALLETS</div><div class="text-3xl">22.8K</div></div>
+          <div><div class="text-yellow-300 text-xs">SUPPLY</div><div class="text-3xl">983M</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Floating clouds -->
+    <div class="absolute top-20 left-10 text-8xl cloud">☁️</div>
+    <div class="absolute top-40 right-20 text-6xl cloud" style="animation-delay:8s">☁️</div>
+    <div class="absolute bottom-40 left-1/3 text-7xl cloud" style="animation-delay:15s">☁️</div>
+  </section>
+
+  <!-- ECOSYSTEM PROJECTS -->
+  <section id="ecosystem" class="py-20 bg-black/30">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-5xl text-center mb-16 text-yellow-300">WORLD MAP • IGM ECOSYSTEM</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <!-- $IGM -->
+        <div class="bg-white/10 border-8 border-white p-8 rounded-3xl text-center hover:scale-105 transition">
+          <div class="text-6xl mb-4">🪙</div>
+          <h3 class="text-3xl mb-2">$IGM</h3>
+          <p class="text-xl mb-6">I Get Money • RevShare Entry Coin</p>
+          <p class="text-sm opacity-75">Hold this to earn IMG1 & IMG dividends</p>
+        </div>
+        <!-- IMG1 -->
+        <div class="bg-white/10 border-8 border-white p-8 rounded-3xl text-center hover:scale-105 transition">
+          <div class="text-6xl mb-4">1️⃣</div>
+          <h3 class="text-3xl mb-2">IMG1</h3>
+          <p class="text-xl mb-6">1nfinite Money Glitch</p>
+          <div class="font-mono text-xs bg-black/50 p-3 rounded break-all">H1NLPq8tVBD9sEv9D3xt5cce65vD6M12ZxBfJz896REV</div>
+          <p class="text-sm mt-4 opacity-75">Feeds directly into IMG</p>
+        </div>
+        <!-- IMG -->
+        <div class="bg-white/10 border-8 border-white p-8 rounded-3xl text-center hover:scale-105 transition">
+          <div class="text-6xl mb-4">🪙</div>
+          <h3 class="text-3xl mb-2">$IMG</h3>
+          <p class="text-xl mb-6">Infinite Money Glitch</p>
+          <div class="font-mono text-xs bg-black/50 p-3 rounded break-all">znv3FZt2HFAvzYf5LxzVyryh3mBXWuTRRng25gEZAjh</div>
+          <p class="text-sm mt-4 opacity-75">5% tax • SOL every 6 hours • Volume burns</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REWARDS SYSTEM -->
+  <section id="rewards" class="py-20 bg-black/40">
+    <div class="max-w-6xl mx-auto px-6">
+      <h2 class="text-5xl text-center mb-12 text-yellow-300">POWER-UPS • REWARDS SYSTEM</h2>
+      <div class="grid md:grid-cols-3 gap-8 text-center">
+        <div class="pipe p-8 rounded-3xl text-black">
+          <div class="text-4xl mb-4">5%</div>
+          <h3 class="text-2xl">TAX COLLECTION</h3>
+          <p class="mt-4">Every buy/sell pays the Glitch Wallet</p>
+        </div>
+        <div class="pipe p-8 rounded-3xl text-black">
+          <div class="text-4xl mb-4">⏰</div>
+          <h3 class="text-2xl">6-HOUR PAYOUTS</h3>
+          <p class="mt-4">SOL automatically sent to holders</p>
+        </div>
+        <div class="pipe p-8 rounded-3xl text-black">
+          <div class="text-4xl mb-4">🔥</div>
+          <h3 class="text-2xl">VOLUME BURNS</h3>
+          <p class="mt-4">Trading volume triggers supply burns</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GLITCH CALCULATOR -->
+  <section id="calculator" class="py-20 bg-white/10">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl text-center mb-12 text-yellow-300">? BLOCK • GLITCH CALCULATOR</h2>
+      <div class="bg-black/80 p-12 rounded-3xl border-8 border-yellow-400">
+        <div class="grid grid-cols-2 gap-8">
+          <div>
+            <label class="block text-sm mb-2">Your IMG Balance</label>
+            <input id="balance" type="number" value="50000" class="w-full bg-white text-black p-4 text-2xl rounded font-mono">
+          </div>
+          <div>
+            <label class="block text-sm mb-2">Estimated 24h SOL Rewards</label>
+            <div id="result" class="text-6xl font-bold text-yellow-300">0.42 SOL</div>
+          </div>
+        </div>
+        <button onclick="calculateRewards()" class="mt-8 w-full bg-red-600 hover:bg-red-700 py-6 text-2xl border-4 border-white">COLLECT REWARDS!</button>
+        <p class="text-center text-sm mt-8 opacity-75">* Based on current volume • Min 50k IMG + 0.002 SOL required</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-black py-12 border-t-8 border-white">
+    <div class="max-w-6xl mx-auto px-6 text-center">
+      <p class="text-sm opacity-60">© 2026 IGM • Infinite Money Glitch • Built as Super IGM Bros</p>
+      <div class="flex justify-center gap-8 mt-6">
+        <a href="#" class="hover:text-yellow-300">X</a>
+        <a href="#" class="hover:text-yellow-300">Telegram</a>
+        <a href="#" class="hover:text-yellow-300">Instagram</a>
+      </div>
+      <p class="text-xs mt-12 opacity-40">Not financial advice • DYOR • Crypto is risky</p>
+    </div>
+  </footer>
+
+  <script>
+    function calculateRewards() {
+      const balance = parseFloat(document.getElementById('balance').value) || 0;
+      // Simple mock calculation based on current volume
+      const reward = (balance / 1000000) * 8.4; // rough estimate
+      document.getElementById('result').textContent = reward.toFixed(2) + " SOL";
+      
+      // Coin burst animation
+      for (let i = 0; i < 15; i++) {
+        setTimeout(() => {
+          console.log('🎉 Coin collected!');
+        }, i * 30);
+      }
+      alert("🎮 REWARDS COLLECTED! " + reward.toFixed(2) + " SOL added to your wallet (demo)");
+    }
+
+    // Tailwind script
+    tailwind.config = { content: ["*"] };
+  </script>
+</body>
+</html>
